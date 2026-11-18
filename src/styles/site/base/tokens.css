@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Bricolage;
+  src: url("/assets/fonts/bricolage-grotesque-latin-wdth.woff2")
+    format("woff2");
+  font-weight: 200 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+:root {
+  --paper: #fffcf5;
+  --paper-deep: #f2f1e8;
+  --ink: #29282b;
+  --muted: #656167;
+  --green: #285747;
+  --green-line: #b9cdbd;
+  --accent: #ae3d3d;
+  --accent-hover: #922f30;
+  --line: #e5dcd4;
+  --white: #ffffff;
+  --butter: #f0e4c7;
+  --blush: #dfe9df;
+  --pistachio: #e9eee5;
+  --font: Bricolage, system-ui, sans-serif;
+  --width: 1240px;
+  --gutter: clamp(20px, 5vw, 80px);
+}
